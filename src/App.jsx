@@ -26,6 +26,8 @@ function App() {
     });
   },[])
 
+  console.log(wordSet);
+
   const onSelectLetter = (keyVal) => {
     if(currAttempt.letterPos > 4)return;
     const newBoard = [...board]
